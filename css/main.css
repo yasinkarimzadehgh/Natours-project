@@ -237,7 +237,7 @@ body {
   height: 90vh;
   background-color: #55c57a;
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(27, 133, 97, 0.8)), url(../../img/hero-small.jpg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(27, 133, 97, 0.8)), url("../../img/hero.jpg");
   background-size: cover;
   position: relative;
 }
@@ -438,7 +438,7 @@ body {
   height: 80rem;
   background-color: #55c57a;
   margin-top: 10rem;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(27, 133, 97, 0.8)), url(../../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(27, 133, 97, 0.8)), url("../../img/nat-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   clip-path: polygon(0 17.5%, 100% 0, 100% 82.5%, 0 100%);
@@ -535,7 +535,7 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 82.5%, 0 100%);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  background-image: linear-gradient(to right bottom, #ffbb00, #ff7300), url(../img/nat-5.jpg);
+  background-image: linear-gradient(to right bottom, #ffbb00, #ff7300), url("../img/nat-5.jpg");
   background-blend-mode: screen;
   background-size: cover;
 }
@@ -682,7 +682,7 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 82.5%, 0 100%);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  background-image: linear-gradient(to right bottom, #7ed56f, #1b8561), url(../img/nat-6.jpg);
+  background-image: linear-gradient(to right bottom, #7ed56f, #1b8561), url("../img/nat-6.jpg");
   background-blend-mode: screen;
   background-size: cover;
 }
@@ -829,7 +829,7 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 82.5%, 0 100%);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  background-image: linear-gradient(to right bottom, #00b7ff, #0056b8), url(../img/nat-7.jpg);
+  background-image: linear-gradient(to right bottom, #00b7ff, #0056b8), url("../img/nat-7.jpg");
   background-blend-mode: screen;
   background-size: cover;
 }
