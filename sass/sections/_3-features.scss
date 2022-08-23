@@ -1,0 +1,49 @@
+.features {
+  width: 100%;
+  height: 80rem;
+  background-color: $color-primary;
+  margin-top: 10rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url(../../img/nat-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 17.5%, 100% 0, 100% 82.5%, 0 100%);
+  position: relative;
+  &-cards {
+    @include XY-Centering;
+  }
+  &-box {
+    text-align: center;
+    background-color: rgba($color-white, 0.7);
+    padding: 2rem 0 5rem 0;
+    height: 30rem;
+    border-radius: 5px;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+    cursor: pointer;
+    &:hover {
+      transform: translateY(-1.5rem) scale(1.03);
+    }
+    &__icon {
+      font-size: 50px;
+      margin: 2.5rem;
+      background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    &__heading {
+      font-size: 1.5rem;
+      color: $color-gray-1;
+    }
+    &__text {
+      margin-top: 2.5rem;
+      font-size: 1.5rem;
+      font-weight: 501;
+      color: $color-gray-2;
+    }
+  }
+}
